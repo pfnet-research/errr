@@ -1,6 +1,6 @@
 # Experience Replay with Random Reshuffling
 
-This is the code for the paper "Experience Replay with Random Reshuffling" on arXiv.
+This is the code for the paper "Experience Replay with Random Reshuffling" on arXiv: https://arxiv.org/abs/2503.02269.
 
 ## RR-C experiments
 
