@@ -11,15 +11,15 @@ To run the experiments, setup CleanRL's dependencies with JAX following its inst
 ### How to run
 ```bash
 # C51 WR
-python  -m rrc.c51_atari_jax --env-id AmidarNoFrameskip-v4 --seed 0
-# C51 R -m R-C
-python  -m rrc.c51_atari_jax_rrc --env-id AmidarNoFrameskip-v4 --seed 0
-# C51 W -m OR
-python  -m rrc.c51_atari_jax_wor --env-id AmidarNoFrameskip-v4 --seed 0
-# DQN W -m R
-python  -m rrc.dqn_atari_jax --env-id AmidarNoFrameskip-v4 --seed 0
-# DQN R -m R-C
-python  -m rrc.dqn_atari_jax_rrc --env-id AmidarNoFrameskip-v4 --seed 0
+python -m rrc.c51_atari_jax --env-id AmidarNoFrameskip-v4 --seed 0
+# C51 RR-C
+python -m rrc.c51_atari_jax_rrc --env-id AmidarNoFrameskip-v4 --seed 0
+# C51 WOR
+python -m rrc.c51_atari_jax_wor --env-id AmidarNoFrameskip-v4 --seed 0
+# DQN WR
+python -m rrc.dqn_atari_jax --env-id AmidarNoFrameskip-v4 --seed 0
+# DQN RR-C
+python -m rrc.dqn_atari_jax_rrc --env-id AmidarNoFrameskip-v4 --seed 0
 ```
 
 ## RR-M experiments
